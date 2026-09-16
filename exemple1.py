@@ -25,7 +25,12 @@ for index in prix_TTC:
 
 print(res)
 
+prix_final = [round(index*2.2) for index in prix_TTC]
+print(prix_final)
 
+# avec condition
+prix_final = [round(index*2.2) for index in prix_TTC if index>200]
+print(prix_final)
 
 
 
